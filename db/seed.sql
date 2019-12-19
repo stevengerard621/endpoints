@@ -1,5 +1,5 @@
 CREATE TABLE list(
-    itemid, serial primary key,
+    itemid serial primary key,
     item varchar(300)
 );
 

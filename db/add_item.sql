@@ -3,5 +3,5 @@ insert into list (
 ) values (
     $1
 );
-select * from post
-where itemid = $1
+select * from list
+order by itemid asc;
